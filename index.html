@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Gül Ticaret Marshall — Kâhta'da Marshall boya, hırdavat, sulama, tesisat ve yapı malzemeleri.">
+<title>Gül Ticaret Marshall | Kâhta</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0b2142;--muted:#5f6f84;--paper:#f4f8fc;--card:#fff;--red:#0b5cab;--red2:#073f7c;--blue:#0b5cab;--blue2:#083d78;--line:#dbe6f2;--shadow:0 18px 50px rgba(8,48,93,.12)}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth}
+body{font-family:"DM Sans",sans-serif;background:var(--paper);color:var(--ink);line-height:1.6}
+a{text-decoration:none;color:inherit}img{display:block;width:100%}.container{width:min(1120px,92%);margin:auto}
+.top{background:var(--ink);color:#fff;font-size:13px}.top .container{display:flex;justify-content:space-between;padding:8px 0;gap:15px}
+header{position:sticky;top:0;z-index:30;background:rgba(246,243,237,.92);backdrop-filter:blur(14px);border-bottom:1px solid #0000000b}
+nav{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:11px;font-weight:800}.brandmark{width:43px;height:43px;border-radius:13px;background:var(--blue);color:#fff;display:grid;place-items:center;font-family:Georgia,serif;font-size:23px;box-shadow:0 9px 24px #0b5cab33}.brand small{display:block;color:var(--muted);font-size:10px;letter-spacing:2px}
+.links{display:flex;gap:27px;font-size:14px;font-weight:700}.links a:hover{color:var(--blue)}.navbtn{background:var(--ink);color:#fff;padding:11px 18px;border-radius:50px;font-size:13px;font-weight:800}
+.hero{padding:72px 0 90px}.hero-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:58px;align-items:center}
+.kicker{color:var(--blue);font-size:12px;font-weight:800;letter-spacing:2px;text-transform:uppercase;display:flex;align-items:center;gap:9px;margin-bottom:17px}.kicker:before{content:"";width:28px;height:2px;background:var(--red)}
+h1{font-family:"Playfair Display",serif;font-size:clamp(48px,6vw,78px);line-height:.98;letter-spacing:-3px;margin-bottom:23px}h1 span{color:var(--blue)}
+.hero p{color:var(--muted);font-size:17px;max-width:540px;margin-bottom:28px}.actions{display:flex;flex-wrap:wrap;gap:11px}.btn{padding:14px 21px;border-radius:50px;font-weight:800;font-size:14px;display:inline-flex;gap:9px;align-items:center;transition:.2s}.primary{background:var(--blue);color:#fff;box-shadow:0 12px 28px #0b5cab2b}.primary:hover{background:var(--blue2);transform:translateY(-2px)}.secondary{background:#fff;border:1px solid var(--line)}.secondary:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+.hero-photo{position:relative}.hero-photo img{height:570px;object-fit:cover;border-radius:30px;box-shadow:var(--shadow)}.photo-tag{position:absolute;left:-18px;bottom:25px;background:#fff;border-radius:18px;padding:15px 18px;box-shadow:var(--shadow);font-weight:800}.photo-tag small{display:block;color:var(--muted);font-size:11px;font-weight:600}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:22px;overflow:hidden;margin-top:34px}.stat{background:#fff;padding:19px}.stat b{font-size:21px}.stat span{display:block;color:var(--muted);font-size:12px;margin-top:3px}
+.section{padding:92px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:32px}.section-head h2{font-family:"Playfair Display",serif;font-size:43px;line-height:1.05}.section-head p{color:var(--muted);max-width:510px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:24px;min-height:190px;transition:.25s}.card:hover{transform:translateY(-5px);box-shadow:var(--shadow)}.icon{width:45px;height:45px;border-radius:14px;background:#f2e9e7;color:var(--blue);display:grid;place-items:center;font-size:21px;margin-bottom:19px}.card h3{font-size:17px;margin-bottom:7px}.card p{font-size:13px;color:var(--muted)}
+.showcase{background:var(--ink);color:#fff}.showcase .section-head p{color:#aaa}.gallery{display:grid;grid-template-columns:1.2fr .8fr .8fr;grid-template-rows:260px 260px;gap:14px}.gallery figure{overflow:hidden;border-radius:20px;position:relative}.gallery figure:first-child{grid-row:span 2}.gallery img{height:100%;object-fit:cover;transition:.5s}.gallery figure:hover img{transform:scale(1.045)}.gallery figcaption{position:absolute;left:12px;bottom:12px;background:#000b;color:#fff;border:1px solid #fff2;padding:7px 11px;border-radius:10px;font-size:11px;font-weight:700}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:58px;align-items:center}.about img{height:450px;object-fit:cover;border-radius:28px;box-shadow:var(--shadow)}.about h2{font-family:"Playfair Display",serif;font-size:44px;line-height:1.05;margin-bottom:18px}.about p{color:var(--muted);margin-bottom:20px}.ticks{display:grid;gap:11px}.tick{display:flex;gap:10px;font-weight:700;font-size:14px}.tick b{color:var(--blue)}
+.contact{padding-bottom:100px}.contact-box{background:linear-gradient(120deg,#0b5cab,#073f7c);color:#fff;border-radius:28px;padding:45px;display:grid;grid-template-columns:1.1fr .9fr;gap:35px;align-items:center;box-shadow:0 20px 55px #083d7828}.contact h2{font-family:"Playfair Display",serif;font-size:45px;line-height:1.05;margin-bottom:13px}.contact p{color:#f4dfe1}.contact-info{display:grid;gap:11px}.info{background:#ffffff13;border:1px solid #ffffff25;border-radius:15px;padding:14px 16px}.info small{display:block;color:#f1c6ca;font-size:10px;text-transform:uppercase;letter-spacing:1.4px;font-weight:800}.info strong{font-size:16px}
+footer{background:#111;color:#aaa;padding:25px 0;font-size:12px}.foot{display:flex;justify-content:space-between;gap:20px}.foot b{color:#fff}
+
+.official-btn{background:#eaf3fb;color:#08427f;border:1px solid #c9dff5;padding:11px 15px;border-radius:12px;font-weight:800;font-size:12px;display:inline-flex;align-items:center;gap:7px;margin-top:15px;transition:.2s}.official-btn:hover{background:#dcecf9;transform:translateY(-2px)}
+.official-top{background:#fff;border:1px solid #c9dff5;color:#08427f!important}.official-top:hover{background:#eaf3fb}
+.product-image.verified{background:linear-gradient(180deg,#f8fbff,#eef6fd)}
+.product-image.official-placeholder{background:linear-gradient(135deg,#073f7c,#0b5cab);color:#fff;text-align:center;padding:24px}.official-placeholder .marshall-mark{font-size:12px;letter-spacing:2px;font-weight:900;opacity:.8}.official-placeholder strong{display:block;font-size:18px;line-height:1.2;margin:10px 0}.official-placeholder span{display:block;font-size:11px;opacity:.82}.product-links{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.product-links .official-btn{margin-top:0}
+@media(max-width:900px){.hero-grid,.about,.contact-box{grid-template-columns:1fr}.hero{padding-top:48px}.hero-photo img{height:480px}.cards{grid-template-columns:repeat(2,1fr)}.links{display:none}.gallery{grid-template-columns:1fr 1fr;grid-template-rows:250px 250px 250px}.gallery figure:first-child{grid-row:auto;grid-column:span 2}.section{padding:70px 0}}
+@media(max-width:560px){.top .container{justify-content:center}.top .container span:last-child{display:none}.hero{padding-bottom:65px}.hero-photo img{height:390px}.photo-tag{left:12px}.stats{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.gallery{display:grid;grid-template-columns:1fr;grid-template-rows:repeat(4,260px)}.gallery figure:first-child{grid-column:auto}.section-head{display:block}.section-head h2{font-size:36px;margin-bottom:12px}.about img{height:340px}.contact-box{padding:30px}.contact h2{font-size:37px}.foot{display:block}.foot span{display:block;margin-top:6px}}
+
+.products-section{background:#f4f8fc}
+.product-filters{display:flex;flex-wrap:wrap;gap:9px;margin:0 0 28px}
+.filter{border:1px solid var(--line);background:#fff;color:var(--ink);padding:10px 16px;border-radius:50px;font:700 13px "DM Sans",sans-serif;cursor:pointer;transition:.2s}
+.filter:hover,.filter.active{background:var(--ink);color:#fff;border-color:var(--ink)}
+.product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}
+.product-card{background:#fff;border:1px solid var(--line);border-radius:22px;overflow:hidden;transition:.25s;box-shadow:0 5px 18px rgba(20,15,10,.04)}
+.product-card:hover{transform:translateY(-5px);box-shadow:var(--shadow)}
+.product-card.hidden{display:none}
+.product-image{height:230px;background:#f8f7f4;display:grid;place-items:center;padding:18px;border-bottom:1px solid var(--line)}
+.product-image img{width:100%;height:100%;object-fit:contain;border-radius:12px}
+.fallback-icon{font-size:64px;opacity:.65}
+.product-body{padding:20px}
+.product-body h3{font-size:18px;margin:5px 0 8px;line-height:1.2}
+.product-body p{font-size:13px;color:var(--muted);min-height:62px}
+.badge{display:inline-flex;align-items:center;padding:5px 9px;border-radius:50px;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.5px;background:#eee;color:#555}
+.badge.new{background:#eaf6ee;color:#24733e}
+.sizes{display:flex;flex-wrap:wrap;gap:6px;margin-top:15px;align-items:center}
+.sizes b{width:100%;font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--muted)}
+.sizes span{font-size:11px;font-weight:800;background:#f5f1eb;border-radius:8px;padding:7px 9px}
+.sizes .unavailable{color:#9b2933;background:#fbeaec;text-decoration:line-through}
+.sizes .color-note{background:#fff1e8;color:#8a451c}
+.product-note{margin-top:20px;color:var(--muted);font-size:12px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px 15px}
+@media(max-width:900px){.product-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.product-grid{grid-template-columns:1fr}.product-image{height:250px}.product-filters{overflow:auto;flex-wrap:nowrap;padding-bottom:4px}.filter{white-space:nowrap}}
+.product-image img{background:#fff}.product-image img[alt]{min-height:100px}
+.product-image .fallback-icon{width:100%;height:100%;display:grid;place-items:center;background:linear-gradient(135deg,#f3eee7,#fff);border-radius:14px}
+</style>
+</head>
+<body>
+<div class="top"><div class="container"><span>📍 Kâhta / Adıyaman</span><span>📞 0532 382 21 77</span></div></div>
+<header><div class="container"><nav>
+<a class="brand" href="#anasayfa"><span class="brandmark">G</span><span>Gül Ticaret<small>MARSHALL • KÂHTA</small></span></a>
+<div class="links"><a href="#urunler">Ürünler</a><a href="#galeri">Galeri</a><a href="#hakkimizda">Hakkımızda</a><a href="#iletisim">İletişim</a></div>
+<div style="display:flex;gap:8px;align-items:center"><a class="navbtn official-top" href="https://www.marshallboya.com/tr/" target="_blank" rel="noopener">Marshall Resmi Sitesi ↗</a><a class="navbtn" href="tel:+90532382177">Bizi Ara</a></div>
+</nav></div></header>
+
+<main id="anasayfa">
+<section class="hero"><div class="container hero-grid">
+<div>
+<div class="kicker">Kâhta'nın yapı & boya adresi</div>
+<h1>Rengine <span>değer</span>, işine güven.</h1>
+<p>Gül Ticaret Marshall; boya, hırdavat, sulama, tesisat ve yapı ihtiyaçlarınız için geniş ürün çeşitliliğini tek çatı altında buluşturur.</p>
+<div class="actions"><a class="btn primary" href="tel:+90532382177">📞 0532 382 21 77</a><a class="btn secondary" href="#galeri">Mağazayı keşfet →</a><a class="btn secondary" href="https://www.marshallboya.com/tr/" target="_blank" rel="noopener">Marshall resmi sitesi ↗</a></div>
+<div class="stats"><div class="stat"><b>Marshall</b><span>Boya & renk çözümleri</span></div><div class="stat"><b>Geniş</b><span>Ürün çeşitliliği</span></div><div class="stat"><b>Kâhta</b><span>Yerel hizmet</span></div></div>
+</div>
+<div class="hero-photo"><img src="images/magaza/dukkan-1.jpeg" alt="Gül Ticaret Marshall mağaza dış görünümü"><div class="photo-tag">Gül Ticaret Marshall<small>Aradığınız ürün, doğru adres.</small></div></div>
+</div></section>
+
+<section class="section products-section" id="urunler"><div class="container">
+<div class="section-head"><div><div class="kicker">Marshall ürünleri</div><h2>Ürünlerimizi keşfedin.</h2></div><p>Ürün kartlarındaki <b>Marshall'da İncele</b> bağlantısı sizi doğrudan Marshall'ın resmi ürün sayfasına götürür. Yanlış ürün fotoğrafı kullanmak yerine doğrulanamayan görselleri özellikle koymadık.</p></div>
+<div class="product-filters">
+<button class="filter active" data-filter="all">Tümü</button><button class="filter" data-filter="ic">İç Cephe</button><button class="filter" data-filter="dis">Dış Cephe</button><button class="filter" data-filter="astar">Astarlar</button><button class="filter" data-filter="ahsap-metal">Ahşap & Metal</button>
+</div>
+<div class="product-grid">
+
+<article class="product-card" data-category="ic"><div class="product-image verified"><img src="https://images.akzonobel.com/akzonobel-flourish/marshall/turkey/en/articles/silpak-plus-15-mavi-kapak.jpeg?impolicy=.auto&imwidth=1366" alt="Marshall Sil-Pak Plus"></div><div class="product-body"><span class="badge new">Yeni ürün</span><h3>Sil-Pak Plus</h3><p>Scuff Mark Resistant teknolojisi, güçlü çizilme direnci ve ultra yıkanabilir yapı.</p><div class="sizes"><b>Ölçüler</b><span>2,5 L</span><span>7,5 L</span><span>15 L</span></div><div class="product-links"><a class="official-btn" href="https://www.marshallboya.com/tr/products-listing/si%CC%87l-pak-plus" target="_blank" rel="noopener">Marshall'da İncele ↗</a></div></div></article>
+<article class="product-card" data-category="ic"><div class="product-image verified"><img src="https://cdn.cimri.io/image/560x560/marshall-silpak-damla-sakizi-15-lt-silikonlu-ic-cephe-boyasi_587284272.jpg" alt="Marshall Sil-Pak"></div><div class="product-body"><h3>Sil-Pak</h3><p>Silikonlu, su bazlı, leke dayanımlı ve silinebilir yarı parlak iç cephe boyası.</p><div class="sizes"><b>Ölçüler</b><span>2,5 L</span><span>7,5 L</span><span>15 L</span></div><div class="product-links"><a class="official-btn" href="https://www.marshallboya.com/tr/products-listing/si%CC%87l-pak" target="_blank" rel="noopener">Marshall'da İncele ↗</a></div></div></article>
+<article class="product-card" data-category="ic"><div class="product-image official-placeholder"><div><div class="marshall-mark">MARSHALL • RESMİ ÜRÜN</div><strong>Luksima<br>Silikonlu Özel Mat</strong><span>Ürün fotoğrafını Marshall'ın resmi sayfasında aç</span></div></div><div class="product-body"><span class="badge new">Yeni ürün</span><h3>Luksima Silikonlu Özel Mat</h3><p>SmartSil teknolojili, özel mat, ultra kapatıcı ve yıkanabilir iç cephe boyası.</p><div class="sizes"><b>Marshall ölçüleri</b><span>1 L</span><span>2,5 L</span><span>7,5 L</span><span>15 L</span></div><div class="product-links"><a class="official-btn" href="https://www.marshallboya.com/tr/products-listing/luksima-silikonlu-%C3%B6zel-mat" target="_blank" rel="noopener">Resmi görseli gör ↗</a></div></div></article>
+<article class="product-card" data-category="ic"><div class="product-image official-placeholder"><div><div class="marshall-mark">MARSHALL • RESMİ ÜRÜN</div><strong>Silikonlu<br>Özel Mat</strong><span>Ürün fotoğrafını Marshall'ın resmi sayfasında aç</span></div></div><div class="product-body"><h3>Silikonlu Özel Mat</h3><p>Özel mat, silinebilir, su bazlı ve yüksek örtücülüklü iç mekân duvar boyası.</p><div class="sizes"><b>Ölçüler</b><span>1 L</span><span>2,5 L</span><span class="unavailable">7,5 L yok</span><span>15 L</span></div><div class="product-links"><a class="official-btn" href="https://www.marshallboya.com/tr/products-listing/silikonlu-%C3%B6zel-mat" target="_blank" rel="noopener">Marshall'da İncele ↗</a></div></div></article>
+<article class="product-card" data-category="ic"><div class="product-image official-placeholder"><div><div class="marshall-mark">MARSHALL • RESMİ ÜRÜN</div><strong>Fit Silikonlu<br>İpek Mat</strong><span>Ürün fotoğrafını Marshall'ın resmi sayfasında aç</span></div></div><div class="product-body"><h3>Fit Silikonlu İpek Mat</h3><p>Silinebilir, su bazlı ve ipek mat görünümlü iç mekân duvar boyası.</p><div class="sizes"><b>Marshall ölçüleri</b><span>3,5 KG</span><span>10 KG</span></div><div class="product-links"><a class="official-btn" href="https://www.marshallboya.com/tr/products-listing/fit-silikonlu-i%CC%87pek-mat" target="_blank" rel="noopener">Marshall'da İncele ↗</a></div></div></article>
+<article class="product-card" data-category="ic"><div class="product-image official-placeholder"><div><div class="marshall-mark">MARSHALL • RESMİ ÜRÜN</div><strong>Fit Silikonlu</strong><span>Ürün fotoğrafını Marshall'ın resmi sayfasında aç</span></div></div><div class="product-body"><h3>Fit Silikonlu Mat</h3><p>Düşük kokulu, su bazlı, rahat uygulanan mat iç cephe boyası.</p><div class="sizes"><b>Marshall'daki Fit Silikonlu ölçüleri</b><span>3,5 KG</span><span>10 KG</span><span>20 KG</span></div><div class="product-links"><a class="official-btn" href="https://www.marshallboya.com/tr/products-listing/fit-silikonlu" target="_blank" rel="noopener">Marshall'da İncele ↗</a></div></div></article>
+<article class="product-card" data-category="ic"><div class="product-image official-placeholder"><div><div class="marshall-mark">MARSHALL • RESMİ ÜRÜN</div><strong>Marshall<br>Tavan Boyası</strong><span>Ürün fotoğrafını resmi sayfada aç</span></div></div><div class="product-body"><h3>Marshall Tavan Boyası</h3><p>Tavan uygulamaları için boya ürünü.</p><div class="sizes"><b>Mağaza bilgisi</b><span>3,5 KG</span><span>10 KG</span><span>20 KG</span></div><div class="product-links"><a class="official-btn" href="https://www.marshallboya.com/tr/" target="_blank" rel="noopener">Marshall'da Ara ↗</a></div></div></article>
+<article class="product-card" data-category="ic"><div class="product-image official-placeholder"><div><div class="marshall-mark">MARSHALL • RESMİ ÜRÜN</div><strong>Su Bazlı<br>Panel Kapı Boyası</strong><span>Ürün fotoğrafını resmi sayfada aç</span></div></div><div class="product-body"><h3>Su Bazlı Panel Kapı Boyası</h3><p>Panel kapı ve uygun iç mekân yüzeyleri için su bazlı boya.</p><div class="sizes"><b>Mağaza bilgisi</b><span>0,75 L</span><span>2,5 L</span></div><div class="product-links"><a class="official-btn" href="https://www.marshallboya.com/tr/" target="_blank" rel="noopener">Marshall'da Ara ↗</a></div></div></article>
+<article class="product-card" data-category="dis"><div class="product-image verified"><img src="https://img.pzrmcdn.com/mnresize/1180/1182/asset/OYMASABMHLP25/images/marshallakrikorsilikonluakrilikboyamahlep25lt35kg-1.jpg" alt="Marshall Akrikor Silikonlu Akrilik"></div><div class="product-body"><h3>Akrikor Silikonlu + Akrilik</h3><p>Dış cephede su bazlı, yüksek örtücülüklü ve hava şartlarına dayanıklı boya.</p><div class="sizes"><b>Marshall ölçüleri</b><span>2,5 L</span><span>7,5 L</span><span>15 L</span><span>25 L</span></div><div class="product-links"><a class="official-btn" href="https://www.marshallboya.com/tr/products-listing/akrikor-silikonlu-akrilik" target="_blank" rel="noopener">Marshall'da İncele ↗</a></div></div></article>
+<article class="product-card" data-category="dis"><div class="product-image official-placeholder"><div><div class="marshall-mark">MARSHALL • RESMİ ÜRÜN</div><strong>Akrikor Su Kalkanı<br>Elyaflı</strong><span>Ürün fotoğrafını Marshall'ın resmi sayfasında aç</span></div></div><div class="product-body"><h3>Akrikor Su Kalkanı Elyaflı</h3><p>Elyaflı su kalkanı ürünü; dış cephe ve suya karşı koruma uygulamalarında kullanılır.</p><div class="sizes"><b>Mağaza bilgisi</b><span>3 KG</span><span>10 KG</span><span>20 KG</span></div><div class="product-links"><a class="official-btn" href="https://www.marshallboya.com/tr/products-listing/akrikor-su-kalkani-elyafli" target="_blank" rel="noopener">Marshall'da Ara ↗</a></div></div></article>
+<article class="product-card" data-category="astar"><div class="product-image official-placeholder"><div><div class="marshall-mark">MARSHALL • RESMİ ÜRÜN</div><strong>Saten Alçı<br>Astarı</strong><span>Ürün fotoğrafını Marshall'ın resmi sayfasında aç</span></div></div><div class="product-body"><h3>Saten Alçı Astarı</h3><p>Alçı ve macunlu yüzeylerde son kat boyanın tutunmasını destekleyen iç cephe astarı.</p><div class="sizes"><b>Marshall ölçüleri</b><span>750 ML</span><span>4 L</span><span>15 L</span></div><div class="product-links"><a class="official-btn" href="https://www.marshallboya.com/tr/products-listing/saten-al%C3%A7%C4%B1-astar%C4%B1" target="_blank" rel="noopener">Marshall'da İncele ↗</a></div></div></article>
+<article class="product-card" data-category="astar"><div class="product-image official-placeholder"><div><div class="marshall-mark">MARSHALL • RESMİ ÜRÜN</div><strong>İzolasyon<br>Astarı</strong><span>Ürün fotoğrafını Marshall'ın resmi sayfasında aç</span></div></div><div class="product-body"><h3>İzolasyon Astarı</h3><p>Nem ve su absorpsiyonunu azaltmaya, yüzey hazırlığına ve tutunmaya yardımcı astar.</p><div class="sizes"><b>Marshall ölçüleri</b><span>750 ML</span><span>2,5 L</span><span>7,5 L</span><span>15 L</span></div><div class="product-links"><a class="official-btn" href="https://www.marshallboya.com/tr/products-listing/i%CC%87zolasyon-astar%C4%B1" target="_blank" rel="noopener">Marshall'da İncele ↗</a></div></div></article>
+<article class="product-card" data-category="astar"><div class="product-image official-placeholder"><div><div class="marshall-mark">MARSHALL • RESMİ ÜRÜN</div><strong>Universal<br>Astar</strong><span>Ürün fotoğrafını Marshall'ın resmi sayfasında aç</span></div></div><div class="product-body"><h3>Universal Astar</h3><p>Farklı yüzeylerde boya öncesi hazırlık için kullanılan çok amaçlı astar.</p><div class="sizes"><b>Mağaza bilgisi</b><span>2,5 L</span><span>7,5 L</span><span>15 L</span></div><div class="product-links"><a class="official-btn" href="https://www.marshallboya.com/tr/" target="_blank" rel="noopener">Marshall'da Ara ↗</a></div></div></article>
+<article class="product-card" data-category="astar"><div class="product-image verified"><img src="https://www.koyuncuoglumarket.com/idea/dm/01/myassets/products/523/marshall-akrikor-silikon-ortucu-astar-beyaz-2-5-lt-5337.jpeg?revision=1750059338" alt="Marshall Akrikor Silikonlu Örtücü Astar"></div><div class="product-body"><h3>Akrikor Silikonlu + Örtücü Astar</h3><p>Dış cephe boya sistemi öncesinde yüzey hazırlığı ve örtücülük için astar.</p><div class="sizes"><b>Mağaza bilgisi</b><span>2,5 L</span><span>10 KG</span><span>20 KG</span></div><div class="product-links"><a class="official-btn" href="https://www.marshallboya.com/tr/products-listing/akrikor-silikonlu-%C3%B6rt%C3%BCc%C3%BC-astar" target="_blank" rel="noopener">Marshall'da İncele ↗</a></div></div></article>
+<article class="product-card" data-category="astar"><div class="product-image official-placeholder"><div><div class="marshall-mark">MARSHALL • RESMİ ÜRÜN</div><strong>Enamel<br>Sentetik Astar</strong><span>Ürün fotoğrafını Marshall'ın resmi sayfasında aç</span></div></div><div class="product-body"><h3>Enamel Sentetik Astar</h3><p>Ahşap ve metal yüzeylerde son kat öncesi hazırlık için sentetik astar.</p><div class="sizes"><b>Mağaza bilgisi</b><span>1 KG</span><span>3 KG</span></div><div class="product-links"><a class="official-btn" href="https://www.marshallboya.com/tr/" target="_blank" rel="noopener">Marshall'da Ara ↗</a></div></div></article>
+<article class="product-card" data-category="ahsap-metal"><div class="product-image official-placeholder"><div><div class="marshall-mark">MARSHALL • RESMİ ÜRÜN</div><strong>Enamel<br>Antipas</strong><span>Ürün fotoğrafını Marshall'ın resmi sayfasında aç</span></div></div><div class="product-body"><h3>Enamel Antipas</h3><p>Metal yüzeylerde pas önleyici hazırlık ve koruma sağlayan ürün.</p><div class="sizes"><b>Marshall ölçüleri</b><span>750 ML</span><span>2,5 L</span><span>15 L</span></div><div class="product-links"><a class="official-btn" href="https://www.marshallboya.com/tr/products-listing/enamel-antipas" target="_blank" rel="noopener">Marshall'da İncele ↗</a></div></div></article>
+<article class="product-card" data-category="astar"><div class="product-image official-placeholder"><div><div class="marshall-mark">MARSHALL • RESMİ ÜRÜN</div><strong>Fit Örtücü<br>İç Cephe Astarı</strong><span>Ürün fotoğrafını Marshall'ın resmi sayfasında aç</span></div></div><div class="product-body"><h3>Fit Örtücü Astar — İç Cephe</h3><p>İç cephede son kat boya öncesi örtücülüğü ve tutunmayı destekleyen astar.</p><div class="sizes"><b>Mağaza bilgisi</b><span>3,5 KG</span><span>10 KG</span><span>20 KG</span></div><div class="product-links"><a class="official-btn" href="https://www.marshallboya.com/tr/" target="_blank" rel="noopener">Marshall'da Ara ↗</a></div></div></article>
+<article class="product-card" data-category="astar"><div class="product-image official-placeholder"><div><div class="marshall-mark">MARSHALL • RESMİ ÜRÜN</div><strong>Fit Silikonlu<br>Örtücü Astar</strong><span>Ürün fotoğrafını Marshall'ın resmi sayfasında aç</span></div></div><div class="product-body"><h3>Fit Silikonlu Örtücü Astar — Dış Cephe</h3><p>Dış cephe son kat boya öncesinde yüzey hazırlığı ve örtücülük için astar.</p><div class="sizes"><b>Mağaza bilgisi</b><span>3,5 KG</span><span>10 KG</span><span>20 KG</span></div><div class="product-links"><a class="official-btn" href="https://www.marshallboya.com/tr/" target="_blank" rel="noopener">Marshall'da Ara ↗</a></div></div></article>
+<article class="product-card" data-category="ahsap-metal"><div class="product-image verified"><img src="https://msp.images.akzonobel.com/prd/dh/etrexp/packshots/c6/f8/75/1c/packshot_medium.png" alt="Marshall Luxe Parlak"></div><div class="product-body"><h3>Luxe Parlak</h3><p>Ahşap ve metal yüzeyler için parlak, solvent bazlı son kat boya.</p><div class="sizes"><b>Mağaza bilgisi</b><span>0,75 L</span><span>2,5 L</span><span class="color-note">Siyah / Beyaz</span></div><div class="product-links"><a class="official-btn" href="https://www.marshallboya.com/tr/products-listing/luxe-parlak" target="_blank" rel="noopener">Marshall'da İncele ↗</a></div></div></article>
+<article class="product-card" data-category="ahsap-metal"><div class="product-image official-placeholder"><div><div class="marshall-mark">MARSHALL • RESMİ ÜRÜN</div><strong>Enamel<br>Parlak</strong><span>Ürün fotoğrafını Marshall'ın resmi sayfasında aç</span></div></div><div class="product-body"><h3>Enamel Parlak</h3><p>Ahşap ve metal yüzeyler için parlak son kat boya.</p><div class="sizes"><b>Mağaza bilgisi</b><span>0,75 L</span><span>2,5 L</span></div><div class="product-links"><a class="official-btn" href="https://www.marshallboya.com/tr/" target="_blank" rel="noopener">Marshall'da Ara ↗</a></div></div></article>
+<article class="product-card" data-category="ahsap-metal"><div class="product-image official-placeholder"><div><div class="marshall-mark">MARSHALL • RESMİ ÜRÜN</div><strong>Cuprinol Tütex<br>Ahşap Tutkalı</strong><span>Ürün fotoğrafını resmi sayfada aç</span></div></div><div class="product-body"><h3>Cuprinol Tütex Ahşap Tutkalı</h3><p>Ahşap uygulamalarında kullanılan Tütex ahşap tutkalı.</p><div class="sizes"><b>Mağaza bilgisi</b><span>0,7 KG</span><span>3 KG</span></div><div class="product-links"><a class="official-btn" href="https://www.marshallboya.com/tr/" target="_blank" rel="noopener">Marshall'da Ara ↗</a></div></div></article>
+</div><div class="product-note">ℹ️ <b>Önemli:</b> Yanlış ürün fotoğrafı göstermemek için yalnızca daha önce doğruladığımız 5 ürünün görselini kullandık. Diğer kartlarda mavi resmi ürün alanı ve doğrudan Marshall bağlantısı bulunuyor. Marshall'ın güncel ürün sayfasındaki fotoğrafı tek tıkla açabilirsiniz.</div>
+</div></section>
+<section class="section showcase" id="galeri"><div class="container">
+<div class="section-head"><div><div class="kicker">Mağazadan kareler</div><h2>Yakından bakın.</h2></div><p>Ürün çeşitliliğimizi ve mağazamızdaki gerçek görüntüleri sizin için sergiledik.Kendi mağazamızdan çekilmiş gerçek fotoğraflar. Ürün çeşitliliğimizi ve mağazamızı yakından görebilirsiniz.</p></div>
+<div class="gallery">
+<figure><img src="images/magaza/dukkan-2.jpeg" alt="Gül Ticaret Marshall mağaza içi ürünler"><figcaption>Mağaza içi ürün çeşitliliği</figcaption></figure>
+<figure><img src="images/magaza/dukkan-3.jpeg" alt="Gül Ticaret Marshall boya reyonu"><figcaption>Marshall boya reyonu</figcaption></figure>
+<figure><img src="images/magaza/dukkan-4.jpeg" alt="Gül Ticaret Marshall hortum ve tesisat ürünleri"><figcaption>Hortum & tesisat</figcaption></figure>
+    <figure><img src="images/magaza/dukkan-3.jpeg" alt="Gül Ticaret Marshall yapı ve boya reyonu"><figcaption>Yapı & boya reyonu</figcaption></figure>
+<figure><img src="images/magaza/dukkan-1.jpeg" alt="Gül Ticaret Marshall mağaza dış görünümü"><figcaption>Mağazamız — Kâhta</figcaption></figure>
+</div></div></section>
+
+<section class="section" id="hakkimizda"><div class="container about">
+<img src="images/magaza/dukkan-3.jpeg" alt="Gül Ticaret Marshall mağaza içi">
+<div><div class="kicker">Gül Ticaret Marshall</div><h2>İhtiyacınız neyse,<br>oradan başlayalım.</h2><p>35 yıldır aynı adres ile Kâhta'da boya ve yapı ihtiyaçlarınızı pratik şekilde karşılayabileceğiniz, ürün çeşitliliğiyle öne çıkan yerel bir mağazayız.</p><div class="ticks"><div class="tick"><b>✓</b> Marshall boya ürünleri</div><div class="tick"><b>✓</b> Hırdavat ve yardımcı ürünler</div><div class="tick"><b>✓</b> Tesisat ve hortum çeşitleri</div><div class="tick"><b>✓</b> Tadilat ve yapı ihtiyaçları</div></div></div>
+</div></section>
+
+<section class="contact" id="iletisim"><div class="container"><div class="contact-box">
+<div><div class="kicker" style="color:#ffd5d8">İletişim</div><h2>Bir ürün mü arıyorsunuz?</h2><p>Telefonla ulaşın, ihtiyacınızı söyleyin. Gül Ticaret Marshall ekibiyle iletişime geçin.</p></div>
+<div class="contact-info">
+<a class="info" href="tel:+90532382177"><small>Telefon</small><strong>0532 382 21 77</strong></a>
+<div class="info"><small>Konum</small><strong>Fırat mahallesi, istiklal caddesi, no 24/B,Kâhta / Adıyaman</strong></div>
+<a class="info" href="https://www.google.com/maps/search/?api=1&query=G%C3%BCl%20Ticaret%20Marshall%20Kahta" target="_blank" rel="noopener"><small>Harita</small><strong>Yol tarifi al →</strong></a>
+</div>
+</div></div></section>
+</main>
+<footer><div class="container foot"><span>© 2026 <b>Gül Ticaret Marshall</b></span><span>Kâhta • Adıyaman</span></div></footer>
+
+<script>
+document.querySelectorAll('.filter').forEach(button=>{
+  button.addEventListener('click',()=>{
+    document.querySelectorAll('.filter').forEach(b=>b.classList.remove('active'));
+    button.classList.add('active');
+    const filter=button.dataset.filter;
+    document.querySelectorAll('.product-card').forEach(card=>{
+      card.classList.toggle('hidden',filter!=='all' && card.dataset.category!==filter);
+    });
+  });
+});
+</script>
+</body>
+</html>
