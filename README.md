@@ -50,7 +50,8 @@ The project provided practical experience with responsive web design, product or
 
 ## 🚀 Live Website
 
-The website is hosted using GitHub Pages. 
+The website is hosted using GitHub Pages.
+
 Website:
 https://melekboran1602.github.io/gul-ticaret-marshall/
 
