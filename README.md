@@ -42,17 +42,19 @@ gul-ticaret-marshall/
 └── README.md
 ```
 
-🎯 Project Goal
+## 🎯 Project Goal
 
 The main goal of this project was to develop a real-world website for a local business while practicing front-end web development and version control.
 
 The project provided practical experience with responsive web design, product organization, external links, image management, and publishing a website through GitHub Pages.
 
-🚀 Live Website
+## 🚀 Live Website
 
-The website is hosted using GitHub Pages. Website; https://melekboran1602.github.io/gul-ticaret-marshall/
+The website is hosted using GitHub Pages. 
+Website:
+https://melekboran1602.github.io/gul-ticaret-marshall/
 
-👩‍💻 Developer
+## 👩‍💻 Developer
 
 Melek Boran
 
