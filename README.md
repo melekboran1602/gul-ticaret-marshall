@@ -1,32 +1,34 @@
 # Gül Ticaret Marshall — Kâhta
 
-A modern and responsive business website developed for Gül Ticaret Marshall, a local paint and construction materials store in Kâhta, Adıyaman, Türkiye.
+A responsive business website developed as a practical front-end project based on my family's local business, Gül Ticaret Marshall, in Kâhta, Adıyaman, Türkiye.
 
 ## 🌐 About the Project
 
-This project was developed to create a simple, modern, and user-friendly online presence for a local business.
+This project was created as a personal learning and practice project to apply my foundational knowledge of HTML, CSS, and JavaScript to a real-world setting.
 
-The website presents the store's products, physical location, contact information, and real store photographs in a clean and responsive interface.
+Since I also work at the business, I used the store and its products as the basis for the website. The goal was not to build a complete e-commerce platform, but to challenge myself by designing and developing a simple website from scratch.
+
+The project includes selected Marshall products, real photographs of the store, basic product categorization, contact information, and location details.
 
 ## ✨ Features
 
-- Responsive design for desktop and mobile devices
-- Product catalog with category filtering
-- Marshall product information
-- Links to official Marshall product pages
-- Real photographs of the store
-- Direct phone call functionality
-- Google Maps location and directions
-- Modern blue-themed user interface
-- Published using GitHub Pages
-
+-Responsive design for desktop and mobile devices    
+-Product catalog with category filtering    
+-Selected Marshall product information    
+-Links to official Marshall product pages    
+-Real photographs of the store    
+-Direct phone call functionality    
+-Google Maps location and directions     
+-Responsive navigation and layout    
+-GitHub Pages deployment      
+ 
 ## 🛠️ Technologies
 
-- HTML5
-- CSS3
-- JavaScript
-- Git
-- GitHub
+- HTML5   
+- CSS3   
+- JavaScript   
+- Git   
+- GitHub  
 - GitHub Pages
 
 ## 📂 Project Structure
@@ -34,23 +36,31 @@ The website presents the store's products, physical location, contact informatio
 ```text
 gul-ticaret-marshall/
 │
-├── index.html
+├── README.md
 ├── dukkan-1.jpeg
 ├── dukkan-2.jpeg
 ├── dukkan-3.jpeg
 ├── dukkan-4.jpeg
-└── README.md
+└── index.html
 ```
 
 ## 🎯 Project Goal
 
-The main goal of this project was to develop a real-world website for a local business while practicing front-end web development and version control.
+The main goal of this project was to move beyond basic theory and practice front-end development by building a website around a real-world environment that I was already familiar with.
 
-The project provided practical experience with responsive web design, product organization, external links, image management, and publishing a website through GitHub Pages.
+Through this project, I practiced:
+
+-Structuring a website with HTML   
+-Creating responsive layouts with CSS   
+-Implementing interactive features with JavaScript   
+-Organizing content into categories   
+-Working with images and external links   
+-Using Git and GitHub for version control   
+-Deploying a website with GitHub Pages   
+
+The project represents one of my first steps toward turning foundational programming knowledge into practical projects.
 
 ## 🚀 Live Website
-
-The website is hosted using GitHub Pages.
 
 Website:
 https://melekboran1602.github.io/gul-ticaret-marshall/
@@ -59,4 +69,4 @@ https://melekboran1602.github.io/gul-ticaret-marshall/
 
 Melek Boran
 
-Developed as a practical front-end project based on a real-world local business use case.
+A practical front-end project created to strengthen my programming skills through a real-world use case.
