@@ -12,15 +12,15 @@ The project includes selected Marshall products, real photographs of the store, 
 
 ## ✨ Features
 
--Responsive design for desktop and mobile devices    
--Product catalog with category filtering    
--Selected Marshall product information    
--Links to official Marshall product pages    
--Real photographs of the store    
--Direct phone call functionality    
--Google Maps location and directions     
--Responsive navigation and layout    
--GitHub Pages deployment      
+- Responsive design for desktop and mobile devices
+- Product catalog with category filtering
+- Selected Marshall product information
+- Links to official Marshall product pages
+- Real photographs of the store
+- Direct phone call functionality
+- Google Maps location and directions
+- Responsive navigation and layout
+- GitHub Pages deployment  
  
 ## 🛠️ Technologies
 
@@ -50,19 +50,19 @@ The main goal of this project was to move beyond basic theory and practice front
 
 Through this project, I practiced:
 
--Structuring a website with HTML   
--Creating responsive layouts with CSS   
--Implementing interactive features with JavaScript   
--Organizing content into categories   
--Working with images and external links   
--Using Git and GitHub for version control   
--Deploying a website with GitHub Pages   
+- Structuring a website with HTML
+- Creating responsive layouts with CSS
+- Implementing interactive features with JavaScript
+- Organizing content into categories
+- Working with images and external links
+- Using Git and GitHub for version control
+- Deploying a website with GitHub Pages
 
 The project represents one of my first steps toward turning foundational programming knowledge into practical projects.
 
 ## 🚀 Live Website
 
-Website:
+**Website:**  
 https://melekboran1602.github.io/gul-ticaret-marshall/
 
 ## 👩‍💻 Developer
