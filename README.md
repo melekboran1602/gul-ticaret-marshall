@@ -70,3 +70,7 @@ https://melekboran1602.github.io/gul-ticaret-marshall/
 Melek Boran
 
 A practical front-end project created to strengthen my programming skills through a real-world use case.
+
+## 🤝 Acknowledgments & Collaboration
+
+* **Architectural Guidance & Pair Programming:** Developed with the collaborative assistance of **Gemini**, utilized for architectural review, WinForms GDI+ rendering optimization, and documentation structuring.
